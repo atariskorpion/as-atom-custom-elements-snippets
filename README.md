@@ -1,3 +1,3 @@
-### atom-snippets-custom-elements
+### atom-template-collection
 
-A collection of custom snippets for coding custom elements.
+A collection of custom templates for different coding tasks.
