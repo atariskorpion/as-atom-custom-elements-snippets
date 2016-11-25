@@ -1,7 +1,10 @@
 '.source.js':
-  'Custom element base definition':
+  'Custom elements':
     'prefix': 'cel'
     'body': 'class ${1:className} extends HTMLElement {\n\t$3\n}\nwindow.customElements.define(\'${2:elementName}\', ${1:className});'
-  'Ananymous custom element base definition':
+  'Ananymous custom elements':
     'prefix': 'acel'
     'body': 'window.customElements.define(\'${1:elementName}\', class extends HTMLElement {\n\t$2\n});'
+  'Custom elements reactions':
+    'prefix': 'celr'
+    'body': 'constructor() {\n\tsuper();\n}\n\nconnectedCallback() {\n\t\n}\n\ndisconnectedCallback() {\n\t\n}'
