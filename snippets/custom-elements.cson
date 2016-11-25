@@ -7,4 +7,4 @@
     'body': 'window.customElements.define(\'${1:elementName}\', class extends HTMLElement {\n\t$2\n});'
   'Custom elements reactions':
     'prefix': 'celr'
-    'body': 'constructor() {\n\tsuper();\n}\n\nconnectedCallback() {\n\t\n}\n\ndisconnectedCallback() {\n\t\n}'
+    'body': 'constructor() {\n\tsuper();\n}\n\nconnectedCallback() {\n\t\n}\n\ndisconnectedCallback() {\n\t\n}\n'
