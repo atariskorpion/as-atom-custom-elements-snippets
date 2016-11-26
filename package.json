@@ -1,5 +1,5 @@
 {
-  "name": "atom-snippets-custom-elements",
+  "name": "custom-elements-snippets",
   "version": "0.0.0",
   "description": "Collection custom elements snippets for atom.",
   "license": "MIT",
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/atariskorpion/atom-snippets-custom-elements.git"
+    "url": "https://github.com/atariskorpion/custom-elements-snippets.git"
   },
   "bugs": {
-    "url": "https://github.com/atariskorpion/atom-snippets-custom-elements/issues"
+    "url": "https://github.com/atariskorpion/custom-elements-snippets/issues"
   },
 
   "dependencies": {
