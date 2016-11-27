@@ -8,3 +8,9 @@
   'Custom elements reactions':
     'prefix': 'celr'
     'body': 'constructor() {\n\tsuper();\n}\n\nconnectedCallback() {\n\t\n}\n\ndisconnectedCallback() {\n\t\n}\n'
+  'Custom elements oberserved Attributes':
+    'prefix': 'celoa'
+    'body': 'static get observedAttributes() {\n\treturn [];\n}'
+  'Custom elements oberserved attributes reaction':
+    'prefix': 'celoar'
+    'body': 'attributeChangedCallback(name, oldValue, newValue) {\n\t\n}'
