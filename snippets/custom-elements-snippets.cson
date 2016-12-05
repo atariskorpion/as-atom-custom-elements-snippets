@@ -10,10 +10,10 @@
     'body': 'constructor() {\n\tsuper();\n}\n\nconnectedCallback() {\n\t\n}\n\ndisconnectedCallback() {\n\t\n}\n'
   'CE oberserved Attributes':
     'prefix': 'celoa'
-    'body': 'static get observedAttributes() {\n\treturn [];\n}'
+    'body': 'static get observedAttributes() {\n\treturn [\n\t\n];\n}'
   'CE oberserved attributes reaction':
     'prefix': 'celoar'
     'body': 'attributeChangedCallback(name, oldValue, newValue) {\n\t\n}'
-  'CE attribute disabled':
+  'CE reflected disabled attribute':
     'prefix': 'celad'
     'body': 'get disabled() {\n\treturn this.hasAttribute(\'disabled\');\n}\n\nset disabled(val) {\n\tif (val) {\n\t\tthis.setAttribute(\'disabled\', \'\');\n\t} else {\n\t\tthis.removeAttribute(\'disabled\');\n\t}\n}\n'
