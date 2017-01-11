@@ -17,3 +17,6 @@
   'CE reflected disabled attribute':
     'prefix': 'celad'
     'body': 'get disabled() {\n\treturn this.hasAttribute(\'disabled\');\n}\n\nset disabled(val) {\n\tif (val) {\n\t\tthis.setAttribute(\'disabled\', \'\');\n\t} else {\n\t\tthis.removeAttribute(\'disabled\');\n\t}\n}\n'
+  'CE Template':
+    'prefix': 'celT'
+    'body': '<template id="${1:className}">\n\t\n</template>\n'
